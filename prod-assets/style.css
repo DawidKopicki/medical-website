@@ -87,3 +87,49 @@ a {
   @media (min-width: 800px) {
     .o-row {
       flex-direction: row; } }
+
+.c-btn {
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: .75rem 0;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all .25s ease-in-out;
+  width: 220px; }
+  .c-btn:hover {
+    text-decoration: none; }
+  .c-btn--primary {
+    background-color: #D3EAFA;
+    color: #3B99E1; }
+    .c-btn--primary:hover {
+      background-color: #8ec9f2;
+      color: #FFFFFF; }
+  .c-btn--accent {
+    background-color: #60DC64;
+    color: #FFFFFF; }
+    .c-btn--accent:hover {
+      background-color: #2bc430;
+      color: #FFFFFF; }
+  .c-btn--dark-blue {
+    background-color: #3E5CC5;
+    color: #FFFFFF; }
+    .c-btn--dark-blue:hover {
+      background-color: #2a408c;
+      color: #FFFFFF; }
+  .c-btn--light {
+    background-color: #FFFFFF;
+    color: #3B99E1; }
+    .c-btn--light:hover {
+      background-color: #d9d9d9;
+      color: #3B99E1; }
+  .c-btn--outline {
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF; }
+    .c-btn--outline:hover {
+      border: 2px solid #d9d9d9;
+      color: #d9d9d9; }
