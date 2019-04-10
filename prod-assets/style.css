@@ -133,3 +133,28 @@ a {
     .c-btn--outline:hover {
       border: 2px solid #d9d9d9;
       color: #d9d9d9; }
+
+.c-heading {
+  color: #3B99E1;
+  line-height: 1.2;
+  margin-bottom: 5px; }
+  .c-heading--level1 {
+    font-size: 1.5rem; }
+    @media (min-width: 1200px) {
+      .c-heading--level1 {
+        font-size: 3rem; } }
+  .c-heading--level2 {
+    font-size: 1.125rem; }
+    @media (min-width: 1200px) {
+      .c-heading--level2 {
+        font-size: 1.5rem; } }
+  .c-heading--level3 {
+    font-size: 1.125rem; }
+  .c-heading--level4 {
+    font-size: 1rem; }
+  .c-heading--level5 {
+    font-size: 0.875rem; }
+  .c-heading--upper {
+    text-transform: uppercase; }
+  .c-heading--white {
+    color: #FFFFFF; }
