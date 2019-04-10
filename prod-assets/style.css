@@ -257,6 +257,27 @@ a {
       .t-site-header__btn-divider {
         display: inline-block; } }
 
+.t-our-company {
+  padding-bottom: 60px;
+  padding-top: 90px; }
+  .t-our-company__left {
+    margin-bottom: 40px; }
+    @media (min-width: 800px) {
+      .t-our-company__left {
+        margin-bottom: 0; } }
+  .t-our-company__right {
+    text-align: center; }
+    @media (min-width: 800px) {
+      .t-our-company__right {
+        padding-right: 30px;
+        text-align: right; } }
+  .t-our-company__buttons {
+    display: flex;
+    flex-wrap: wrap; }
+  .t-our-company__btn {
+    margin-right: 30px;
+    margin-bottom: 25px; }
+
 .u-mb-1 {
   margin-bottom: 10px; }
 
