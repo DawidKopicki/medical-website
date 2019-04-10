@@ -175,3 +175,16 @@ a {
       display: inline-block;
       margin-left: 25px;
       width: auto; } }
+
+.c-icon-box {
+  text-align: center; }
+  .c-icon-box__image {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    margin-bottom: 25px; }
+  .c-icon-box__icon {
+    align-self: center; }
+  .c-icon-box__text {
+    font-size: 0.875rem;
+    margin-top: 15px; }
