@@ -278,6 +278,14 @@ a {
     margin-right: 30px;
     margin-bottom: 25px; }
 
+.t-our-advantages {
+  padding-top: 60px; }
+  .t-our-advantages__item {
+    margin-bottom: 40px; }
+    @media (min-width: 1200px) {
+      .t-our-advantages__item {
+        margin-bottom: 100px; } }
+
 .u-mb-1 {
   margin-bottom: 10px; }
 
