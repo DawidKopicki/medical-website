@@ -273,7 +273,8 @@ a {
         text-align: right; } }
   .t-our-company__buttons {
     display: flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: center; }
   .t-our-company__btn {
     margin-right: 30px;
     margin-bottom: 25px; }
@@ -286,28 +287,116 @@ a {
       .t-our-advantages__item {
         margin-bottom: 100px; } }
 
-.t-post-list__item {
-  margin-bottom: 40px; }
-  @media (min-width: 1200px) {
-    .t-post-list__item {
-      margin-bottom: 20px; } }
-
-.t-post-list__image {
-  margin-bottom: 25px;
-  max-width: 349px;
+.t-post-list {
+  background: #F9FBFE;
+  padding-top: 40px;
   position: relative; }
+  @media (min-width: 1200px) {
+    .t-post-list {
+      height: 380px; } }
+  .t-post-list__content {
+    padding-bottom: 40px; }
+    @media (min-width: 1200px) {
+      .t-post-list__content {
+        background-color: #F9FBFE;
+        clip-path: ellipse(68% 450px at 50% 0);
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 80px;
+        z-index: 1000; } }
+  .t-post-list__item {
+    margin-bottom: 40px; }
+    @media (min-width: 1200px) {
+      .t-post-list__item {
+        margin-bottom: 20px; } }
+  .t-post-list__image {
+    margin-bottom: 25px;
+    max-width: 349px;
+    position: relative; }
+  .t-post-list__badge {
+    background: linear-gradient(45deg, #3E5CC5 0%, #5B8AF8 100%);
+    border-radius: 5px 0 0 5px;
+    color: #FFFFFF;
+    font-size: 0.875rem;
+    font-weight: bold;
+    padding: .5rem 1rem;
+    position: absolute;
+    top: 70%;
+    text-transform: uppercase;
+    right: 0; }
 
-.t-post-list__badge {
+.t-clinic-locator {
   background: linear-gradient(45deg, #3E5CC5 0%, #5B8AF8 100%);
-  border-radius: 5px 0 0 5px;
-  color: #FFFFFF;
-  font-size: 0.875rem;
-  font-weight: bold;
-  padding: .5rem 1rem;
-  position: absolute;
-  top: 70%;
-  text-transform: uppercase;
-  right: 0; }
+  padding-bottom: 45px;
+  padding-top: 40px; }
+  @media (min-width: 1200px) {
+    .t-clinic-locator {
+      background: url("../images/map.png") 10% 80% no-repeat, linear-gradient(45deg, #3E5CC5 0%, #5B8AF8 100%);
+      padding-top: 200px; } }
+  .t-clinic-locator__right {
+    display: flex;
+    justify-content: flex-end; }
+  .t-clinic-locator__content {
+    width: 100%; }
+    @media (min-width: 1200px) {
+      .t-clinic-locator__content {
+        max-width: 500px;
+        text-align: right; } }
+  .t-clinic-locator__heading {
+    margin-bottom: 15px; }
+  .t-clinic-locator__subheading {
+    margin-bottom: 40px; }
+  .t-clinic-locator__buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 25px; }
+    @media (min-width: 1200px) {
+      .t-clinic-locator__buttons {
+        justify-content: flex-end; } }
+  .t-clinic-locator__btn {
+    margin-bottom: 15px;
+    margin-left: 15px; }
+
+.t-site-footer {
+  padding-left: 15px;
+  padding-right: 15px; }
+  .t-site-footer .o-row {
+    padding-bottom: 40px;
+    padding-top: 50px; }
+  .t-site-footer__item {
+    flex-basis: auto;
+    padding-left: 15px; }
+    @media (min-width: 800px) {
+      .t-site-footer__item:first-child {
+        width: 28%; } }
+    @media (min-width: 800px) {
+      .t-site-footer__item:nth-child(2) {
+        width: 25%; } }
+    @media (min-width: 800px) {
+      .t-site-footer__item:nth-child(3) {
+        width: 25%; } }
+  .t-site-footer__heading {
+    align-items: center;
+    display: flex;
+    height: 60px; }
+  .t-site-footer__text-heading {
+    color: #444444; }
+  .t-site-footer__address {
+    padding-top: 20px; }
+  .t-site-footer__label {
+    display: block;
+    font-size: 0.875rem;
+    margin-bottom: 10px; }
+  .t-site-footer__contac-item {
+    line-height: 1.8;
+    margin-bottom: 20px; }
+  .t-site-footer__copy {
+    padding-top: 25px;
+    padding-bottom: 25px; }
+  .t-site-footer__copy-text {
+    font-size: 0.625rem; }
 
 .u-mb-1 {
   margin-bottom: 10px; }
